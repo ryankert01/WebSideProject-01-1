@@ -1,4 +1,4 @@
-h1 {
+.sushires {
     font-family: fantasy;
     font-size: 70px;
     color: black;
@@ -6,12 +6,13 @@ h1 {
 }
 
 h2 {
-    font-family: sans-serif;
-    font-size: 35px;
+    font-family: fantasy;
+    font-size: 30px;
     color: black;
 }
 
 p {
+    font-family: fantasy;
     font-size: 25px;
 }
 
@@ -24,7 +25,6 @@ p {
     left: 80px;
 }
 
-
 .imgtext {
     float: right;
     /* 文字在右邊 */
@@ -32,13 +32,13 @@ p {
     padding: 20px 20px 0px 0px;
 }
 
-
-
 nav li {
     float: left;
+    list-style-type: none;
     width: 16%;
-    height: 40px;
-    line-height: 40px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 40px;
     text-align: center;
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
@@ -47,4 +47,72 @@ nav li {
 li:hover {
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
+}
+
+
+
+/*calendar*/
+
+
+.tit {
+    /*分頁標題*/
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+.month {
+    /*行事曆主框架*/
+    border-collapse: collapse;
+    /*堆疊*/
+    table-layout: fixed;
+    /*表格行列*/
+    width: 1200px;
+    height: 900px;
+}
+
+
+/*星期幾*/
+.month th {
+    border-bottom: none;
+    padding: 3px 2px 2px;
+    /*內距   上 左右 下 */
+    background-color: rgb(172, 144, 144);
+    color: #333;
+    font-size: 30px;
+    font-family: 微軟正黑體;
+}
+
+.month td {
+    font-size: 100 px;
+    font-family: 微軟正黑體;
+    padding: 2px 2px;
+    margin: 0;
+    vertical-align: top;
+}
+
+.month td.next {
+    background-color: #eee;
+    color: #A6A6A6;
+}
+
+
+.month ul {
+    list-style-type: none;
+    margin: 3px;
+    padding: 0;
+}
+
+.month li {
+    /*活動*/
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    padding: 4px;
+    margin-bottom: 7px;
+    height: 34px;
+    width: 150px;
+    background-color: rgb(197, 197, 197);
+}
+
+td:hover {
+    background-color: rgb(172, 144, 144)
 }
