@@ -1,0 +1,26 @@
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+#t1 {
+    width: 85%;
+    padding-left: 15%;
+    font: 25px;
+}
+
+th {
+    background-color: burlywood;
+}
+
+#fr1{
+    text-align: center;
+    font-size: 40px;
+    font-family: fantasy;
+}
+
+#fr2{
+    text-align: center;
+    font-size:20px;
+    font-family: fantasy;
+}
+
