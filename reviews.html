@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/reviews.css">
 
 </head>
 <body>
@@ -29,7 +30,31 @@
 
 <!--review form-->
 <body>
-    
+    <form action="index.html" target="_blank" method="get">
+        <fieldset>
+            <legend>Your Identity</legend>
+            Name: <input type="text" name="Name" reqired><br><br>
+            Email: <input type="email" name="Email" required><br><br>
+            Gender: 
+            <input type="radio" name="Gender" value="Male">Male
+            <input type="radio" name="Gender" value="Female">Female
+            <input type="radio" name="Gender" value="Neutral">Neutral
+        </fieldset><br>
+        <fieldset>
+            <legend>Do you satisfy with our service?</legend>
+            <input type="radio" name="Satisfactory" value="Very Satisfied">Very Satisfied<br>
+            <input type="radio" name="Satisfactory" value="Satisfied">Satisfied<br>
+            <input type="radio" name="Satisfactory" value="Normal">Normal<br>
+            <input type="radio" name="Satisfactory" value="Not So Satisfied">Not So Satisfied<br>
+            <input type="radio" name="Satisfactory" value="Bad Service">Bad Service<br>
+        </fieldset><br>
+        <fieldset>
+            <legend>Any Suggestion?</legend>
+            Suggestion:
+            <textarea name="Suggestion" id="Suggestion" cols="50" rows="10"></textarea>
+        </fieldset>
+        <br><input type="submit">
+    </form>
 </body>
 
 </html>
