@@ -1,3 +1,4 @@
+
 .sushires {
     font-family: fantasy;
     font-size: 70px;
@@ -11,12 +12,17 @@ h2 {
     color: black;
 }
 
+.current{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+
+    
+}
+
 p {
     font-family: fantasy;
     font-size: 25px;
 }
-
-
 
 
 .imgpos {
@@ -45,7 +51,6 @@ nav li {
     background-color: rgb(0, 0, 0);
 }
 
-.index:hover {
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
+li:hover {
+    background-color: rgb(167, 167, 167);
 }
