@@ -33,27 +33,28 @@
     <form action="index.html" target="_blank" method="get">
         <fieldset>
             <legend>Your Identity</legend>
-            Name: <input type="text" name="Name" reqired><br><br>
+            Name: <input type="text" name="Name" required><br><br>
             Email: <input type="email" name="Email" required><br><br>
             Gender: 
-            <input type="radio" name="Gender" value="Male">Male
-            <input type="radio" name="Gender" value="Female">Female
-            <input type="radio" name="Gender" value="Neutral">Neutral
+            <input type="radio" name="Gender" value="Male" required>Male
+            <input type="radio" name="Gender" value="Female"required>Female
+            <input type="radio" name="Gender" value="Neutral"required>Neutral
         </fieldset><br>
         <fieldset>
             <legend>Do you satisfy with our service?</legend>
-            <input type="radio" name="Satisfactory" value="Very Satisfied">Very Satisfied<br>
-            <input type="radio" name="Satisfactory" value="Satisfied">Satisfied<br>
-            <input type="radio" name="Satisfactory" value="Normal">Normal<br>
-            <input type="radio" name="Satisfactory" value="Not So Satisfied">Not So Satisfied<br>
-            <input type="radio" name="Satisfactory" value="Bad Service">Bad Service<br>
+            <input type="radio" name="Satisfactory" value="Very Satisfied"required>Very Satisfied<br>
+            <input type="radio" name="Satisfactory" value="Satisfied"required>Satisfied<br>
+            <input type="radio" name="Satisfactory" value="Normal"required>Normal<br>
+            <input type="radio" name="Satisfactory" value="Not So Satisfied"required>Not So Satisfied<br>
+            <input type="radio" name="Satisfactory" value="Bad Service"required>Bad Service<br>
         </fieldset><br>
         <fieldset>
             <legend>Any Suggestion?</legend>
             Suggestion:
             <textarea name="Suggestion" id="Suggestion" cols="50" rows="10"></textarea>
         </fieldset>
-        <br><input type="submit">
+        <br>
+        <button onclick="alert('Submitted! If you are not redirected to the index page, check if you do the survey right.')"type="submit" >Submit</button>
     </form>
 </body>
 
