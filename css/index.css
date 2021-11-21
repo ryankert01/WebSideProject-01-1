@@ -1,0 +1,55 @@
+/*首頁*/
+
+.imgpos {
+    /*封面店照*/
+    width: 650px;
+    height: 450px;
+    float: left;
+
+    margin-top: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+
+.textposition {
+    margin-top: 250px;
+}
+
+
+.text {
+
+    margin-top: 90px;
+    margin-left: 70px;
+    clear: left;
+    float: left;
+    font-size: 25px;
+    background-color: antiquewhite;
+    width: 500px;
+    height: 280px;
+    padding-left: 5%;
+    /* border: solid 10px; */
+}
+
+.aa {
+    color: rgb(9, 37, 129);
+    text-decoration: none;
+}
+
+
+.map {
+
+    display: block;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 20%;
+    border: solid 9;
+}
+
+.map iframe {
+    position: relative;
+    height: 350px;
+    width: 350px;
+    left: 70px;
+    top: 200px;
+}

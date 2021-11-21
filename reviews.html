@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Reviews</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/reviews.css">
 
 </head>
+
 <body>
     <header>
         <br />
@@ -18,7 +20,7 @@
         <nav>
             <ul>
                 <li><a href="index.html" class="current">首頁</a></li>
-                <li><a href="product.html" class="current">產品</a></li>
+                <li><a href="product.html" class="current">菜單</a></li>
                 <li><a href="staff.html" class="current">員工簡介</a></li>
                 <li><a href="calendar.html" class="current">行事曆</a></li>
                 <li><a href="financial-report.html" class="current">財務報表</a></li>
@@ -29,24 +31,25 @@
 </body>
 
 <!--review form-->
+
 <body>
     <form action="index.html" target="_blank" method="get">
         <fieldset>
             <legend>基本資料</legend>
             名子: <input type="text" name="Name" required><br><br>
             Email: <input type="email" name="Email" required><br><br>
-            性別: 
+            性別:
             <input type="radio" name="Gender" value="Male" required>男
-            <input type="radio" name="Gender" value="Female"required>女
-            <input type="radio" name="Gender" value="Neutral"required>其他
+            <input type="radio" name="Gender" value="Female" required>女
+            <input type="radio" name="Gender" value="Neutral" required>其他
         </fieldset><br>
         <fieldset>
             <legend>對我們的服務滿意嗎?</legend>
-            <input type="radio" name="Satisfactory" value="Very Satisfied"required>非常滿意<br>
-            <input type="radio" name="Satisfactory" value="Satisfied"required>滿意<br>
-            <input type="radio" name="Satisfactory" value="Normal"required>普通<br>
-            <input type="radio" name="Satisfactory" value="Not So Satisfied"required>不滿意<br>
-            <input type="radio" name="Satisfactory" value="Bad Service"required>非常不滿意<br>
+            <input type="radio" name="Satisfactory" value="Very Satisfied" required>非常滿意<br>
+            <input type="radio" name="Satisfactory" value="Satisfied" required>滿意<br>
+            <input type="radio" name="Satisfactory" value="Normal" required>普通<br>
+            <input type="radio" name="Satisfactory" value="Not So Satisfied" required>不滿意<br>
+            <input type="radio" name="Satisfactory" value="Bad Service" required>非常不滿意<br>
         </fieldset><br>
         <fieldset>
             <legend>意見回饋:</legend>
@@ -54,7 +57,9 @@
             <textarea name="Suggestion" id="Suggestion" cols="50" rows="10"></textarea>
         </fieldset>
         <br>
-        <button onclick="alert('Submitted! If you are not redirected to the index page, check if you do the survey right.')"type="submit" >Submit</button>
+        <button
+            onclick="alert('Submitted! If you are not redirected to the index page, check if you do the survey right.')"
+            type="submit">Submit</button>
     </form>
 </body>
 

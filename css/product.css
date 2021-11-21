@@ -1,9 +1,6 @@
-/*product*/
-
-
 #fr1 {
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 
@@ -21,12 +18,38 @@ p {
 figure img {
     width: 250px;
     height: 200px;
-    border: 3px solid rgb(0, 0, 0);
+    border: 5px solid black;
 }
-
 
 
 figcaption {
     padding-left: 10px;
-    font-size: 20px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+    padding: 5px 0;
+
+    position: absolute;
+    /*tooltip position*/
+    z-index: 1;
+    top: 70%;
+    right: 3%
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }

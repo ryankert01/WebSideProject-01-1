@@ -1,20 +1,12 @@
 /*calendar*/
 
 
-.tit {
-    /*分頁標題*/
-    font-family: sans-serif;
-    font-size: 40px;
-}
-
 .month {
-    /*行事曆主框架*/
     border-collapse: collapse;
-    /*堆疊*/
     table-layout: fixed;
-    /*表格行列*/
-    width: 1200px;
-    height: 900px;
+    width: 1000px;
+    height: 800px;
+    margin-bottom: 10%;
 }
 
 
@@ -52,11 +44,11 @@
 .month li {
     /*活動*/
     color: rgb(0, 0, 0);
-    font-size: 23px;
+    font-size: 20px;
     padding: 4px;
     margin-bottom: 7px;
     height: 34px;
-    width: 150px;
+    width: 120px;
     background-color: rgb(197, 197, 197);
 }
 
